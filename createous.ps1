@@ -13,6 +13,6 @@ $OUs = @(
 )
 
 foreach ($ou in $OUs) {
-    New-ADOrganizationalUnit -Path 'OU=Corp,DC=acme,DC=local' -Name $ou 
+    New-ADOrganizationalUnit -Path 'OU=Corp,DC=lbcc,DC=internal' -Name $ou 
 }
 
